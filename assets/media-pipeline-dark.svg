@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
   <title id="title">Serverless media upload pipeline architecture</title>
   <desc id="desc">The browser requests a presigned upload, uploads directly to S3, then an object-created event invokes Lambda validation. State is stored in DynamoDB and approved media is delivered through CloudFront.</desc>
   <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#202923"/></pattern><style>.m{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}</style><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#647068"/></marker></defs>
-  <rect width="1200" height="410" rx="24" fill="#0B0E0C"/><rect x="1" y="1" width="1198" height="408" rx="23" fill="none" stroke="#273028" stroke-width="2"/><rect x="28" y="92" width="1144" height="288" rx="16" fill="url(#grid)" opacity=".72"/>
+  <rect width="1200" height="540" rx="24" fill="#0B0E0C"/><rect x="1" y="1" width="1198" height="538" rx="23" fill="none" stroke="#273028" stroke-width="2"/><rect x="28" y="92" width="1144" height="288" rx="16" fill="url(#grid)" opacity=".72"/>
   <g class="m" fill="#97A096" letter-spacing="1.8"><text x="42" y="51" font-size="14">002 / MEDIA PIPELINE</text><text x="1000" y="51" font-size="13">SERVERLESS</text><text x="42" y="75" font-size="11">REQUEST &#8594; DIRECT UPLOAD &#8594; VALIDATE &#8594; APPROVE / REJECT</text></g>
   <g fill="none" stroke="#647068" stroke-width="1.6" marker-end="url(#arrow)"><path d="M202 187H290"/><path d="M450 187H544"/><path d="M704 187H798"/><path d="M958 187H1044"/><path d="M122 238V270H624V238"/><path d="M838 238V270H724V325H704"/><path d="M918 238V292"/><path d="M1101 228V306"/></g>
   <g class="m" font-size="9" fill="#7E897F" letter-spacing="1.05"><text x="217" y="176">REQUEST URL</text><text x="480" y="176">SIGNED POLICY</text><text x="722" y="176">OBJECT CREATED</text><text x="976" y="176">APPROVED</text><text x="242" y="260">FILE BYPASSES API</text><text x="748" y="260">STATE</text><text x="930" y="277">REJECT</text></g>
@@ -17,4 +17,9 @@
     <g transform="translate(1072 306)"><rect width="86" height="50" rx="13" fill="#182112" stroke="#6C9139"/><text x="43" y="30" font-size="10" fill="#D5F7A9">DELIVER</text></g>
   </g>
   <g class="m" font-size="10" fill="#7E897F" letter-spacing="1.2"><text x="42" y="374">TERRAFORM / AWS</text><text x="934" y="374">CI / TEST / COVERAGE</text></g>
+  <path d="M28 402H1172" stroke="#273028"/>
+  <g class="m" fill="#97A096"><text x="42" y="431" font-size="10" letter-spacing="1.4">OUTCOME / TRUST BOUNDARY</text></g>
+  <text x="42" y="463" font-family="ui-sans-serif,'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#F3F6EF">THE API STAYS OUT OF THE FILE TRANSFER.</text>
+  <g class="m" font-size="10" letter-spacing="1.15" fill="#8C968D"><text x="42" y="491">DIRECT-TO-S3 UPLOAD &#183; BINARY VALIDATION &#183; CONTROLLED DELIVERY</text><text x="42" y="515">ZERO-TRUST &#183; EVENT-DRIVEN &#183; SERVERLESS &#183; TERRAFORM &#183; TESTED CI</text></g>
+  <g transform="translate(982 435)"><rect width="176" height="62" rx="31" fill="#182112" stroke="#6C9139"/><rect x="7" y="7" width="162" height="48" rx="24" fill="#10160D" stroke="#486325"/><text class="m" x="23" y="37" font-size="11" letter-spacing="1" fill="#D5F7A9">CASE STUDY</text><circle cx="140" cy="31" r="17" fill="#B6F36A"/><path d="M133 36L147 22M137 22H147V32" fill="none" stroke="#10160D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>
 </svg>

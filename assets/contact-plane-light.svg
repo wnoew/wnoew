@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Explore Sujaya's work</title>
+  <desc id="desc">See project case studies, architecture, and engineering notes at sujaya.dev.</desc>
+  <defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#E0E3DA"/></pattern><style>.m{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,"Segoe UI",sans-serif}</style></defs>
+  <rect width="1200" height="260" rx="24" fill="#F4F3EE"/><rect x="1" y="1" width="1198" height="258" rx="23" fill="none" stroke="#D9DDD3" stroke-width="2"/><rect x="28" y="28" width="1144" height="204" rx="16" fill="url(#grid)" opacity=".68"/>
+  <g class="m" fill="#596057" letter-spacing="1.8"><text x="48" y="56" font-size="12">004 / OPEN CHANNEL</text><text x="1028" y="56" font-size="11">EXTERNAL</text></g>
+  <g class="s" fill="#10130F" font-weight="760" letter-spacing="-1.6"><text x="48" y="121" font-size="40">SEE THE SYSTEMS</text><text x="48" y="168" font-size="40">IN MORE DETAIL.</text></g>
+  <g class="m" fill="#697167" font-size="10" letter-spacing="1.2"><text x="50" y="205">CASE STUDIES / ARCHITECTURE / ENGINEERING NOTES</text></g>
+  <g transform="translate(818 92)">
+    <rect width="334" height="94" rx="47" fill="#E4EDCF" stroke="#93A968"/><rect x="8" y="8" width="318" height="78" rx="39" fill="#F7FAF0" stroke="#BAC9A0"/>
+    <text class="m" x="35" y="55" font-size="17" letter-spacing="1.2" fill="#30420C">SUJAYA.DEV</text>
+    <circle cx="281" cy="47" r="25" fill="#668C18"/><path d="M270 52L290 32M276 32H290V46" fill="none" stroke="#F7FAF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g class="m" fill="#747B71" font-size="9" letter-spacing="1.1"><text x="948" y="217">CLICK TO OPEN &#8599;</text></g>
+</svg>
