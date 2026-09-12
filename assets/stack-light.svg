@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img" aria-labelledby="title desc">
+  <title id="title">Verified build layers</title><desc id="desc">Technologies used across Sujaya Mindev's public projects: Flutter, React, Vite, FastAPI, KrakenD, AWS Lambda, PostgreSQL, SQLite, DynamoDB, AWS, OCI, Docker, Terraform, GitHub Actions, GHCR, and Gitleaks.</desc>
+  <defs><style>.m{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,"Segoe UI",sans-serif}.card{fill:#FAF9F5;stroke:#C9CEC4;stroke-width:1.5}.cap{font-size:18px;letter-spacing:1.25px;fill:#668C18}.tech{font-size:20px;font-weight:700;fill:#171B16}.sub{font-size:18px;fill:#687067}</style></defs>
+  <rect width="1200" height="570" rx="28" fill="#F4F3EE"/><rect x="1" y="1" width="1198" height="568" rx="27" fill="none" stroke="#D5DAD0" stroke-width="2"/>
+  <path d="M32 88H1168" stroke="#D5DAD0"/>
+  <g class="m" font-size="21" letter-spacing="1.7"><text x="48" y="57" fill="#171B16">03 / BUILD LAYERS</text><text x="1017" y="57" fill="#668C18">VERIFIED</text></g>
+  <text class="s" x="48" y="126" font-size="20" fill="#596057">The stack visible in the public systems—not a wishlist of logos.</text>
+  <g class="m">
+    <g transform="translate(48 164)"><rect class="card" width="258" height="150" rx="18"/><text class="cap" x="22" y="35">INTERFACES</text><text class="tech" x="22" y="76">FLUTTER</text><text class="tech" x="22" y="108">REACT / VITE</text></g>
+    <g transform="translate(330 164)"><rect class="card" width="258" height="150" rx="18"/><text class="cap" x="22" y="35">SERVICES</text><text class="tech" x="22" y="76">FASTAPI / KRAKEND</text><text class="tech" x="22" y="108">AWS LAMBDA</text></g>
+    <g transform="translate(612 164)"><rect class="card" width="258" height="150" rx="18"/><text class="cap" x="22" y="35">DATA</text><text class="tech" x="22" y="76">POSTGRESQL</text><text class="tech" x="22" y="108">SQLITE / DYNAMODB</text></g>
+    <g transform="translate(894 164)"><rect width="258" height="150" rx="18" fill="#EAF3D9" stroke="#8DA94D" stroke-width="1.5"/><text class="cap" x="22" y="35" fill="#587119">CLOUD + INFRA</text><text class="tech" x="22" y="76">AWS / OCI</text><text class="tech" x="22" y="108">DOCKER / TERRAFORM</text></g>
+    <g transform="translate(48 340)"><rect class="card" width="1104" height="164" rx="18"/><text class="cap" x="22" y="36">DELIVERY + OPERATIONS</text><text class="tech" x="22" y="82">GITHUB ACTIONS</text><text class="tech" x="281" y="82">GHCR</text><text class="tech" x="410" y="82">GITLEAKS</text><text class="tech" x="592" y="82">PYTEST</text><text class="tech" x="748" y="82">OBSERVABILITY</text><text class="sub" x="22" y="126">CI/CD / coverage gates / secret scanning / container publishing / logs + metrics</text></g>
+  </g>
+  <text class="m" x="48" y="542" font-size="18" letter-spacing="1.15" fill="#687067">SOURCES: PUBLIC REPOSITORIES + SUJAYA.DEV PROJECT PAGES</text>
+</svg>

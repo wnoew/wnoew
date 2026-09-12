@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" role="img" aria-labelledby="title desc">
+  <title id="title">Reclaima system architecture</title><desc id="desc">Offline-first Flutter mobile app through KrakenD and FastAPI to PostgreSQL, S3, AWS Textract and Bedrock, with scheduled Firebase Cloud Messaging reminders.</desc>
+  <defs><style>.m{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}.s{font-family:ui-sans-serif,"Segoe UI",sans-serif}.flow{stroke:#465149;stroke-width:2.5;fill:none}.node{fill:#0E120F;stroke:#374139;stroke-width:1.5}.cap{font-size:18px;letter-spacing:1.3px;fill:#97A096}.name{font-size:21px;font-weight:700;fill:#F3F6EF}.detail{font-size:18px;fill:#97A096}</style></defs>
+  <rect width="1200" height="670" rx="28" fill="#0B0E0C"/><rect x="1" y="1" width="1198" height="668" rx="27" fill="none" stroke="#273028" stroke-width="2"/>
+  <path d="M32 88H1168M32 545H1168" stroke="#273028"/>
+  <g class="m" font-size="21" letter-spacing="1.7"><text x="48" y="57" fill="#F3F6EF">01 / RECLAIMA</text><text x="970" y="57" fill="#B6F36A">MOBILE + CLOUD</text></g>
+  <text class="s" x="48" y="125" font-size="20" fill="#97A096">Offline-first receipt, warranty, return-window, and claim workflow.</text>
+  <g class="m">
+    <path class="flow" d="M314 228H444M756 228H886"/>
+    <g transform="translate(48 164)"><rect class="node" width="266" height="128" rx="18"/><text class="cap" x="22" y="32">CLIENT</text><text class="name" x="22" y="68">FLUTTER MOBILE</text><text class="detail" x="22" y="98">Drift + SQLite</text><circle cx="238" cy="28" r="6" fill="#B6F36A"/></g>
+    <g transform="translate(444 164)"><rect class="node" width="312" height="128" rx="18"/><text class="cap" x="22" y="32">EDGE</text><text class="name" x="22" y="68">KRAKEND</text><text class="detail" x="22" y="98">Firebase JWT / rate limits</text></g>
+    <g transform="translate(886 164)"><rect width="266" height="128" rx="18" fill="#1B2714" stroke="#759D3A" stroke-width="1.5"/><text class="cap" x="22" y="32" fill="#C8F68E">SERVICE</text><text class="name" x="22" y="68">FASTAPI</text><text class="detail" x="22" y="98">Python / OCI + Docker</text></g>
+    <path class="flow" d="M1019 292V326H187V348M1019 326H463V348M1019 326H739V348M1019 326V348"/>
+    <g transform="translate(48 348)"><rect class="node" width="278" height="126" rx="18"/><text class="cap" x="20" y="31">SYSTEM OF RECORD</text><text class="name" x="20" y="67">POSTGRESQL</text><text class="detail" x="20" y="97">receipts / items / claims</text></g>
+    <g transform="translate(342 348)"><rect class="node" width="242" height="126" rx="18"/><text class="cap" x="20" y="31">OBJECT STORAGE</text><text class="name" x="20" y="67">AMAZON S3</text><text class="detail" x="20" y="97">images / claim PDFs</text></g>
+    <g transform="translate(600 348)"><rect class="node" width="278" height="126" rx="18"/><text class="cap" x="20" y="31">DOCUMENT AI</text><text class="name" x="20" y="67">TEXTRACT + BEDROCK</text><text class="detail" x="20" y="97">expense OCR / cleanup</text></g>
+    <g transform="translate(894 348)"><rect class="node" width="258" height="126" rx="18"/><text class="cap" x="20" y="31">DEADLINES</text><text class="name" x="20" y="67">SCHEDULER + FCM</text><text class="detail" x="20" y="97">push reminders</text></g>
+  </g>
+  <g class="m" font-size="18" letter-spacing="1.15" fill="#97A096">
+    <text x="48" y="515">TERRAFORM</text><text x="190" y="515">GITHUB ACTIONS</text><text x="405" y="515">GHCR</text><text x="495" y="515">GITLEAKS</text><text x="628" y="515">PROMETHEUS + LOKI + GRAFANA</text>
+  </g>
+  <g class="s"><text x="48" y="593" font-size="27" font-weight="760" fill="#F3F6EF">TURN A FADING RECEIPT INTO A CLAIM-READY RECORD.</text><text x="48" y="629" font-size="19" fill="#97A096">SCAN RECEIPTS / TRACK DEADLINES / GENERATE CLAIM PDFs</text></g>
+  <g class="m" transform="translate(979 574)"><rect width="173" height="54" rx="13" fill="#F3F6EF"/><text x="86.5" y="34" text-anchor="middle" font-size="18" letter-spacing="1.2" fill="#0B0E0C">CASE STUDY &#8599;</text></g>
+</svg>
