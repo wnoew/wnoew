@@ -8,10 +8,6 @@
   </picture>
 </a>
 
-<sub>Computer Science (Software Engineering) undergraduate building full-stack products and the cloud infrastructure they run on — Python, FastAPI, React, Flutter, AWS, and OCI. Open to an internship in Colombo, in-person or hybrid.</sub>
-
-<br><br>
-
 <a href="https://sujaya.dev/reclaima">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/reclaima-dark.svg">
