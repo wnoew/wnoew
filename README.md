@@ -1,38 +1,38 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Sujaya Mindev - software engineer building product software and cloud infrastructure" src="./assets/hero-light.svg" width="100%">
-</picture>
+<a href="https://sujaya.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+    <img alt="Sujaya Manith Mindev — Computer Science (Software Engineering) undergraduate, full-stack and cloud development, Python, FastAPI, React, Flutter, AWS, OCI, open to work in Colombo" src="./assets/hero-light.svg" width="100%">
+  </picture>
+</a>
+
+<sub>Computer Science (Software Engineering) undergraduate building full-stack products and the cloud infrastructure they run on — Python, FastAPI, React, Flutter, AWS, and OCI. Open to an internship in Colombo, in-person or hybrid.</sub>
+
+<br><br>
 
 <a href="https://sujaya.dev/reclaima">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/reclaima-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/reclaima-light.svg">
-    <img alt="Reclaima - offline-first receipt, warranty, return-window, and claim system" src="./assets/reclaima-light.svg" width="100%">
+    <img alt="Reclaima — offline-first Flutter and FastAPI receipt, warranty, and claims app using AWS Textract, Bedrock, PostgreSQL, Docker, and OCI, with GitHub Actions CI/CD" src="./assets/reclaima-light.svg" width="100%">
   </picture>
 </a>
 
-<a href="https://github.com/sujayamindev/serverless-media-upload-pipeline">
+<a href="https://sujaya.dev/serverless-pipeline">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/media-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/media-light.svg">
-    <img alt="Serverless Media Upload Pipeline - direct S3 upload, Lambda validation, DynamoDB status, and presigned preview architecture" src="./assets/media-light.svg" width="100%">
+    <img alt="Serverless Media Upload Pipeline — React frontend with AWS Lambda, API Gateway, S3, CloudFront, DynamoDB, Cognito, and Terraform-provisioned infrastructure" src="./assets/media-light.svg" width="100%">
   </picture>
 </a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
-  <img alt="Verified build layers across interfaces, services, data, cloud infrastructure, and delivery" src="./assets/stack-light.svg" width="100%">
-</picture>
-
 <a href="https://sujaya.dev">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/contact-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/contact-light.svg">
-    <img alt="Explore Sujaya's project case studies and contact information at sujaya.dev" src="./assets/contact-light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-contact-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stack-contact-light.svg">
+    <img alt="Sujaya Mindev's technology stack — Flutter, React, FastAPI, KrakenD, AWS Lambda, PostgreSQL, DynamoDB, Docker, Terraform, GitHub Actions — open to an internship in Colombo, in-person or hybrid" src="./assets/stack-contact-light.svg" width="100%">
   </picture>
 </a>
 
@@ -41,7 +41,11 @@
   &nbsp;&middot;&nbsp;
   <a href="https://github.com/sujayamindev/serverless-media-upload-pipeline">Media pipeline source</a>
   &nbsp;&middot;&nbsp;
+  <a href="https://github.com/sujayamindev">GitHub</a>
+  &nbsp;&middot;&nbsp;
   <a href="https://www.linkedin.com/in/sujayamindev">LinkedIn</a>
+  &nbsp;&middot;&nbsp;
+  <a href="mailto:hi@sujaya.dev">hi@sujaya.dev</a>
 </sub>
 
 </div>
